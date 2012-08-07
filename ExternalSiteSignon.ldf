@@ -1,0 +1,19 @@
+# START - External Site Sign-on
+dn: CN=[CUS] ExternalSiteSignon,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: Z9zQJg+N2EKHCvzyiu03Vg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: External Site Sign-on
+jenzabar-ICSNET-PortletPath: Portlet.ExternalSiteSignon,CUS.ICS.ExternalSiteSignon.ExternalSiteSignon
+jenzabar-ICSNET-ApplicationPointer: CN=CUS,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CUS] ExternalSiteSignon,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - External Site Sign-on
